@@ -1,0 +1,56 @@
+var callback = decodeURIComponent((/[?&]callback=([^&]*)/i).exec(window.location.search)[1]);
+
+window['callback']([
+  {
+    label: 'Form 1',
+    url: 'https://prontoproit.github.io/FrontendTest/form1'
+  },
+  {
+    label: 'Form 2',
+    url: 'https://prontoproit.github.io/FrontendTest/form2'
+  },
+  {
+    label: 'Form 3',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Alfa',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Bravo',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Charlie',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Delta',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Echo',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Foxtrot',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Golf',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Hotel',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'India',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  },
+  {
+    label: 'Juliet',
+    url: 'https://prontoproit.github.io/FrontendTest/form3'
+  }
+]);

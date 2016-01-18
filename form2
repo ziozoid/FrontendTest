@@ -1,0 +1,51 @@
+var callback = decodeURIComponent((/[?&]callback=([^&]*)/i).exec(window.location.search)[1]);
+
+window['callback']([
+  {
+    name: 'email',
+    label: 'Email',
+    type: 'text',
+    rules: [
+      {
+        type: 'required',
+        msg: 'Inserire una mail!'
+      },
+      {
+        type: 'email',
+        msg: 'Inserire una mail valida!'
+      }
+    ]
+  },
+  {
+    name: 'message',
+    label: 'Messaggio',
+    type: 'text',
+    rules: [
+      {
+        type: 'min_len',
+        msg: 'Il messaggio non è abbastanza lungo.',
+        options: {
+          val: 25
+        }
+      },
+      {
+        type: 'max_len',
+        msg: 'Il messaggio è troppo lungo.',
+        options: {
+          val: 100
+        }
+      }
+    ]
+  },
+  {
+    name: 'agreement',
+    label: 'Accetto i termini',
+    type: 'checkbox',
+    rules: [
+      {
+        type: 'required',
+        msg: 'Questo campo è obbligatorio!'
+      }
+    ]
+  },
+]);

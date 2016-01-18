@@ -1,0 +1,31 @@
+var callback = decodeURIComponent((/[?&]callback=([^&]*)/i).exec(window.location.search)[1]);
+
+window['callback']([
+  {
+    name: 'date',
+    label: 'Data partenza',
+    type: 'date',
+    rules: []
+  },
+  {
+    name: 'passengers',
+    label: 'Numero di passeggeri',
+    type: 'number',
+    rules: [
+      {
+        type: 'min',
+        msg: 'Almeno un passeggero.',
+        options: {
+          val: 1
+        }
+      },
+      {
+        type: 'max',
+        msg: 'Non più di dieci passeggeri.',
+        options: {
+          val: 10
+        }
+      }
+    ]
+  },
+]);
