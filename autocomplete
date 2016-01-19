@@ -1,6 +1,4 @@
-var callback = decodeURIComponent((/[?&]callback=([^&]*)/i).exec(window.location.search)[1]);
-
-window['callback']([
+jsonpCallback([
   {
     label: 'Form 1',
     url: 'https://prontoproit.github.io/FrontendTest/form1'
