@@ -18,7 +18,7 @@ Entrambe le pagine condividono header e footer.
 ![mockup](http://prontoproit.github.io/FrontendTest/img/mockup1.png)
 
 Nella sezione centrale c'è un campo con autocomplete le cui voci sono caricate attraverso una chiamata ajax secondo lo standard jsonp all'indirizzo:  
-`http://prontoproit.github.io/FrontendTest/autocomplete?callback=<nome_della_callback>`
+`http://prontoproit.github.io/FrontendTest/autocomplete?callback=jsonpCallback`
 
 L'oggetto ritornato è nella forma:
 
