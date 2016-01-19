@@ -8,7 +8,7 @@ Il test consiste nella ralizzazione di due pagine:
 - Una dinamica con forms, chiamate ajax e manipolazione del DOM.
 - Una statica per la realizzazione di un mockup dettagliato.
 
-Le pagine devono essere realizzate con secondo standards e best practices, con decente compatibilità cross-browser e in modo adatto alla fruizione su dispositivi mobili.
+Le pagine devono essere realizzate secondo standards e best practices, con decente compatibilità cross-browser e in modo adatto alla fruizione su dispositivi mobili.
 
 Entrambe le pagine condividono header e footer.
 ![header](http://prontoproit.github.io/FrontendTest/img/header.png) ![footer](http://prontoproit.github.io/FrontendTest/img/footer.png)
@@ -17,7 +17,7 @@ Entrambe le pagine condividono header e footer.
 
 ![mockup](http://prontoproit.github.io/FrontendTest/img/mockup1.png)
 
-Nella sezione centrale c'è un campo con autocomplete con le cui voci sono caricate con una chiamata ajax secondo lo standard jsonp all'indirizzo:  
+Nella sezione centrale c'è un campo con autocomplete le cui voci sono caricate attraverso una chiamata ajax secondo lo standard jsonp all'indirizzo:  
 `http://prontoproit.github.io/FrontendTest/autocomplete?callback=<nome_della_callback>`
 
 L'oggetto ritornato è nella forma:
@@ -31,7 +31,7 @@ L'oggetto ritornato è nella forma:
 ]
 ```
 
-In cui `<label>` è l'etichetta della suggestion da mostrare nell'autocomplete e `<url>` è l'indirizzo a da cui ottenere le specifiche del form da renderizzare.
+In cui `<label>` è l'etichetta della suggestion da mostrare nell'autocomplete e `<url>` è l'indirizzo da cui ottenere le specifiche del form da renderizzare.
 
 Al momento della selezione di una tipologia di form dall'autocomplete bisogna renderizzarlo ottenendo le specifiche con una chiamata ajax secondo lo standard jsonp all'url ottenuto allo step precedente.
 
