@@ -1,0 +1,73 @@
+
+/**
+ * Variables
+ */
+$container-min-width : 960;
+$gutter              : 20;
+
+$screen-xxs : 468;
+$screen-xs  : 768;
+$screen-sm  : 991;
+$screen-md  : 1170;
+$screen-lg  : 4000;
+
+/**
+ * Colors
+ */
+$grey-dark    : #777;
+$grey         : #BBC2C5;
+$grey-light   : #E5E5E5;
+$grey-lighter : lighten($grey,20%);
+
+$blue-light : #4D8FC5;
+$blue-dark  : #005AA3;
+
+$purple-dark-color-bar : #8d338a;
+$green-color-bar       : #b2c039;
+$grey-color-bar        : #7f898d;
+$orange-color-bar      : #d64911;
+
+$color-body-bg   : white;
+$color-body-font : #B1B1B1;
+
+$color-form-bg     : white;
+$color-form-border : $grey;
+$color-form-font   : $grey-dark;
+
+$color-main-menu-bg   : $blue-dark;
+$color-main-menu-font : white;
+
+$color-btn-default-border : $grey;
+$color-btn-default-font   : $grey;
+
+/**
+ * Typography
+ */
+$webfonts           : icomoon;
+$font-relevance     : 'Roboto', Helvetica, Arial, sans-serif;
+$font-size          : 12;
+$font-weight-thin   : thin;
+$font-weight-normal : normal;
+$font-weight-bold   : bold;
+$line-height        : 2px;
+$font               : #{$font-size}/#{$line-height};
+
+/**
+ * AnimationsAnimations
+ */
+$animation-fade : 0.3s ease-out;
+$animation-move : 0.8s ease-in-out;
+
+/**
+ * Layout
+ */
+$breakpoints: (
+  small  : $screen-xs,
+  medium : $screen-sm,
+  large  : $screen-md,
+  wide   : $screen-lg
+);
+
+// Sprites
+// --------------------------------------------------
+$spritePath: "../img";

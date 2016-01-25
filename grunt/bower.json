@@ -1,0 +1,21 @@
+{
+  "name"        : "ProntoPro",
+  "description" : "Test Frontend",
+  "author"      : [  
+    { "name" : "Silvio Rossi", "email" : "silvio.rossi81@gmail.com" }
+  ],
+  "ignore" : [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "testsuite",
+    "log",
+    "docs",
+    ".settings"
+  ],
+  "dependencies" : {
+    "jquery"        : "~2.1.4",
+    "bootstrap"     : "~3.3.5",
+    "normalize-css" : "~3.0.3"
+  }
+}

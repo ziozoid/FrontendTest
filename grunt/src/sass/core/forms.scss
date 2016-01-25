@@ -1,0 +1,12 @@
+form{
+
+	input[type='checkbox']{
+		box-shadow: none;
+	}
+
+	.errorSpan{
+		color: #a94442;
+		position: absolute;
+    	margin-top: -3px;
+	}
+}
